@@ -1,4 +1,4 @@
-# Secure IoT Framework with Blockchain
+<img width="1903" height="972" alt="communication_control" src="https://github.com/user-attachments/assets/9ff16b6b-1572-4dee-93c9-9d4b38c198aa" /># Secure IoT Framework with Blockchain
 
 ## Overview
 
@@ -82,13 +82,14 @@ secure-iot-framework-blockchain/
 
 This workflow illustrates how an administrator manages IoT devices through the smart contract by authorizing devices, controlling communication permissions, and recording device activities on the blockchain.
 
-**Image:** `architecture/admin_panel_interaction.png`
+<img width="1299" height="358" alt="admin_panel_interaction" src="https://github.com/user-attachments/assets/5ffd979e-1100-488b-b1c3-24d303c9ec9a" />
 
 ### IoT Device Interaction
 
 This workflow demonstrates how IoT devices interact with the blockchain framework to request authorization, verify data integrity, and communicate securely with authorized devices.
 
-**Image:** `architecture/iot_device_interaction.png`
+<img width="1132" height="354" alt="iot_device_interaction" src="https://github.com/user-attachments/assets/4f02cfb3-4cd5-4b14-be95-da4a184533d8" />
+
 
 ---
 
@@ -98,21 +99,20 @@ This workflow demonstrates how IoT devices interact with the blockchain framewor
 
 The smart contract was developed, compiled, and deployed using Remix IDE. The deployment interface provides access to implemented security functions, including authorization, communication control, data integrity verification, and audit logging.
 
-**Image:** `screenshots/remix_deployment.png`
+<img width="1903" height="972" alt="communication_control" src="https://github.com/user-attachments/assets/8d50c9c2-cc94-4d7b-9a35-5dda8bdfa4c4" />
 
 ### Device Authorization
 
 This screenshot shows successful execution of the `authorizeDevice()` function, demonstrating blockchain-based device authorization and access control.
 
-**Image:<img width="1903" height="972" alt="communication_control" src="https://github.com/user-attachments/assets/ef973904-4b8c-48f3-bf06-87fb4047b319" />
-** 
-
-
+<img width="1908" height="963" alt="device_authorization" src="https://github.com/user-attachments/assets/77a0d2f4-593e-4da1-aeec-036a402616eb" />
+ 
 ### Ganache Transaction Validation
 
 Ganache was used as a local Ethereum blockchain environment to validate smart contract deployment and transaction execution. The transaction history confirms successful blockchain interactions during testing.
 
-**Image:** `screenshots/ganache_transactions.png`
+<img width="1907" height="1016" alt="ganache_transactions" src="https://github.com/user-attachments/assets/b255758c-673b-4ce7-8d7e-f6649ef61744" />
+
 
 ---
 
