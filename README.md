@@ -46,6 +46,51 @@ Blockchain technology provides a decentralized and tamper-resistant approach to 
 
 ---
 
+## Setup & How to Run
+
+### Prerequisites
+- [Ganache](https://trufflesuite.com/ganache/) — local Ethereum blockchain simulator
+- [Remix IDE](https://remix.ethereum.org/) — no installation needed, runs in browser
+
+---
+
+### Steps
+
+**1. Start Ganache**
+- Open Ganache → click **Quickstart Ethereum**
+- Note the RPC Server: `HTTP://127.0.0.1:7545`
+- You will see 10 pre-funded test accounts ready to use
+
+**2. Open Remix IDE**
+- Visit [https://remix.ethereum.org](https://remix.ethereum.org) in your browser
+- In the File Explorer → click **Upload**
+- Upload `contracts/IoTSecurityContract.sol` from this repo
+
+**3. Compile the Contract**
+- Go to **Solidity Compiler** tab (left sidebar)
+- Select the compiler version matching the `pragma` line in the contract
+- Click **Compile IoTSecurityContract.sol**
+- Green tick = compiled successfully
+
+**4. Deploy to Ganache**
+- Go to **Deploy & Run Transactions** tab
+- Change Environment to **Web3 Provider**
+- Enter Ganache RPC URL: `http://127.0.0.1:7545`
+- Select a test account from the dropdown
+- Click **Deploy**
+
+**5. Test the Contract Functions**
+- Expand the deployed contract panel in Remix
+- Test each function:
+  - `authorizeDevice()` — register a trusted IoT device
+  - `revokeDevice()` — remove device authorization
+  - `verifyDataIntegrity()` — check hash of device data
+  - `allowCommunication()` — set device communication permissions
+  - `logActivity()` — record device action on blockchain
+- Check **Ganache → Transactions tab** to see each call recorded
+
+---
+
 ## Repository Structure
 
 ```text
