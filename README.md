@@ -1,4 +1,4 @@
-<img width="1903" height="972" alt="communication_control" src="https://github.com/user-attachments/assets/9ff16b6b-1572-4dee-93c9-9d4b38c198aa" /># Secure IoT Framework with Blockchain
+# Secure IoT Framework with Blockchain
 
 ## Overview
 
